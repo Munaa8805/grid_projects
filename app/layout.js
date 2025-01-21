@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import BigHeader from "@/components/BigHeader";
 import Footer from "@/components/Footer";
@@ -24,9 +25,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased container mx-auto`}
       >
-        <BigHeader  />
+        <BigHeader />
         {children}
         <Footer />
+        <Analytics  />;
       </body>
     </html>
   );
