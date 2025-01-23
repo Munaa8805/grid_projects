@@ -3,6 +3,12 @@ import React, { useEffect } from "react";
 import GridImage from "./GridImage";
 const dataImages = [
   {
+    id: -1,
+    image:
+      "https://res.cloudinary.com/djws6cbsg/image/upload/v1737661298/IMG_3712_o92wkh.jpg",
+    title: "The winner of the CUP 2024 year",
+  },
+  {
     id: 0,
     image:
       "https://res.cloudinary.com/djws6cbsg/image/upload/v1737157005/IMG_3618_ulmbyp.jpg",
@@ -52,6 +58,18 @@ const dataImages = [
     image:
       "https://res.cloudinary.com/djws6cbsg/image/upload/v1737157003/IMG_3598_je6hhk.jpg",
     title: "Base preparing and bricks are installing on the pathway.",
+  },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/djws6cbsg/image/upload/v1737660974/IMG_3700_klnwmi.jpg",
+    title: "Installing the sod",
+  },
+  {
+    id: 9,
+    image:
+      "https://res.cloudinary.com/djws6cbsg/image/upload/v1737660973/IMG_3701_ymvnk6.jpg",
+    title: "Installing the sod",
   },
 ];
 
